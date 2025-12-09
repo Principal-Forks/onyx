@@ -1,0 +1,179 @@
+version: "1.0.0"
+name: "Onyx Architecture Component Library"
+
+nodeComponents:
+  # Frontend Components
+  nextjs-web:
+    label: "Next.js Web App"
+    icon: "Globe"
+    color: 5  # cyan
+    description: "Frontend web application built with Next.js 16 and React 19"
+
+  # Backend API Components
+  fastapi-server:
+    label: "FastAPI Backend"
+    icon: "Server"
+    color: 4  # green
+    description: "Main backend API server handling all REST endpoints"
+
+  chat-engine:
+    label: "Chat Engine"
+    icon: "MessageSquare"
+    color: 6  # purple
+    description: "LLM orchestration and message processing"
+
+  indexing-pipeline:
+    label: "Indexing Pipeline"
+    icon: "FileSearch"
+    color: 2  # orange
+    description: "Document processing, chunking, and embedding generation"
+
+  connector-framework:
+    label: "Connector Framework"
+    icon: "Plug"
+    color: 3  # yellow
+    description: "40+ data source integrations (Slack, GitHub, Confluence, etc.)"
+
+  auth-system:
+    label: "Authentication"
+    icon: "Shield"
+    color: 1  # red
+    description: "OAuth2, OIDC, SAML, and basic auth"
+
+  # Model Servers
+  inference-model-server:
+    label: "Inference Model Server"
+    icon: "Brain"
+    color: 6  # purple
+    description: "LLM chat responses and embeddings"
+
+  indexing-model-server:
+    label: "Indexing Model Server"
+    icon: "Cpu"
+    color: 2  # orange
+    description: "Document embedding generation"
+
+  # Data Storage
+  postgresql:
+    label: "PostgreSQL"
+    icon: "Database"
+    color: 4  # green
+    description: "Primary relational database (postgres:15.2)"
+
+  vespa-search:
+    label: "Vespa Search"
+    icon: "Search"
+    color: 2  # orange
+    description: "Hybrid search engine (BM25 + vector search)"
+
+  redis-cache:
+    label: "Redis"
+    icon: "Zap"
+    color: 1  # red
+    description: "Caching and async task queue"
+
+  minio-storage:
+    label: "MinIO"
+    icon: "HardDrive"
+    color: 3  # yellow
+    description: "S3-compatible file storage"
+
+  # Supporting Services
+  nginx-proxy:
+    label: "Nginx"
+    icon: "Network"
+    color: 4  # green
+    description: "Reverse proxy and load balancing"
+
+  celery-worker:
+    label: "Celery Workers"
+    icon: "Settings"
+    color: 2  # orange
+    description: "Background job processing"
+
+  mcp-server:
+    label: "MCP Server"
+    icon: "Box"
+    color: 6  # purple
+    description: "Model Context Protocol server"
+
+  code-interpreter:
+    label: "Code Interpreter"
+    icon: "Terminal"
+    color: 5  # cyan
+    description: "Code execution sandbox"
+
+  # External Services
+  llm-providers:
+    label: "LLM Providers"
+    icon: "Cloud"
+    color: 6  # purple
+    description: "OpenAI, Anthropic, Cohere, Google, etc."
+
+  external-data-sources:
+    label: "External Data Sources"
+    icon: "CloudDownload"
+    color: 3  # yellow
+    description: "Slack, GitHub, Confluence, Gmail, etc."
+
+edgeComponents:
+  # API Communication
+  http-rest:
+    label: "HTTP/REST"
+    style: "solid"
+    color: 5  # cyan
+    description: "RESTful API communication"
+
+  http-streaming:
+    label: "HTTP/SSE"
+    style: "animated"
+    color: 6  # purple
+    description: "Server-Sent Events for streaming responses"
+
+  # Database Connections
+  database-connection:
+    label: "SQL"
+    style: "solid"
+    color: 4  # green
+    description: "Database queries via SQLAlchemy/asyncpg"
+
+  # Queue/Cache
+  redis-connection:
+    label: "Redis"
+    style: "dashed"
+    color: 1  # red
+    description: "Cache and queue operations"
+
+  # File Storage
+  s3-api:
+    label: "S3 API"
+    style: "solid"
+    color: 3  # yellow
+    description: "S3-compatible storage API"
+
+  # Search
+  search-query:
+    label: "Search Query"
+    style: "solid"
+    color: 2  # orange
+    description: "Hybrid search queries"
+
+  # Background Jobs
+  celery-task:
+    label: "Async Task"
+    style: "dotted"
+    color: 2  # orange
+    description: "Celery background task"
+
+  # External Communication
+  external-api:
+    label: "External API"
+    style: "dashed"
+    color: 3  # yellow
+    description: "Third-party API calls"
+
+  llm-request:
+    label: "LLM Request"
+    style: "solid"
+    color: 6  # purple
+    description: "LLM inference request"
