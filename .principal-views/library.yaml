@@ -4,114 +4,114 @@ name: "Onyx Architecture Component Library"
 nodeComponents:
   # Frontend Components
   nextjs-web:
-    label: "Next.js Web App"
+    defaultLabel: "Next.js Web App"
     icon: "Globe"
     color: 5  # cyan
     description: "Frontend web application built with Next.js 16 and React 19"
 
   # Backend API Components
   fastapi-server:
-    label: "FastAPI Backend"
+    defaultLabel: "FastAPI Backend"
     icon: "Server"
     color: 4  # green
     description: "Main backend API server handling all REST endpoints"
 
   chat-engine:
-    label: "Chat Engine"
+    defaultLabel: "Chat Engine"
     icon: "MessageSquare"
     color: 6  # purple
     description: "LLM orchestration and message processing"
 
   indexing-pipeline:
-    label: "Indexing Pipeline"
+    defaultLabel: "Indexing Pipeline"
     icon: "FileSearch"
     color: 2  # orange
     description: "Document processing, chunking, and embedding generation"
 
   connector-framework:
-    label: "Connector Framework"
+    defaultLabel: "Connector Framework"
     icon: "Plug"
     color: 3  # yellow
     description: "40+ data source integrations (Slack, GitHub, Confluence, etc.)"
 
   auth-system:
-    label: "Authentication"
+    defaultLabel: "Authentication"
     icon: "Shield"
     color: 1  # red
     description: "OAuth2, OIDC, SAML, and basic auth"
 
   # Model Servers
   inference-model-server:
-    label: "Inference Model Server"
+    defaultLabel: "Inference Model Server"
     icon: "Brain"
     color: 6  # purple
     description: "LLM chat responses and embeddings"
 
   indexing-model-server:
-    label: "Indexing Model Server"
+    defaultLabel: "Indexing Model Server"
     icon: "Cpu"
     color: 2  # orange
     description: "Document embedding generation"
 
   # Data Storage
   postgresql:
-    label: "PostgreSQL"
+    defaultLabel: "PostgreSQL"
     icon: "Database"
     color: 4  # green
     description: "Primary relational database (postgres:15.2)"
 
   vespa-search:
-    label: "Vespa Search"
+    defaultLabel: "Vespa Search"
     icon: "Search"
     color: 2  # orange
     description: "Hybrid search engine (BM25 + vector search)"
 
   redis-cache:
-    label: "Redis"
+    defaultLabel: "Redis"
     icon: "Zap"
     color: 1  # red
     description: "Caching and async task queue"
 
   minio-storage:
-    label: "MinIO"
+    defaultLabel: "MinIO"
     icon: "HardDrive"
     color: 3  # yellow
     description: "S3-compatible file storage"
 
   # Supporting Services
   nginx-proxy:
-    label: "Nginx"
+    defaultLabel: "Nginx"
     icon: "Network"
     color: 4  # green
     description: "Reverse proxy and load balancing"
 
   celery-worker:
-    label: "Celery Workers"
+    defaultLabel: "Celery Workers"
     icon: "Settings"
     color: 2  # orange
     description: "Background job processing"
 
   mcp-server:
-    label: "MCP Server"
+    defaultLabel: "MCP Server"
     icon: "Box"
     color: 6  # purple
     description: "Model Context Protocol server"
 
   code-interpreter:
-    label: "Code Interpreter"
+    defaultLabel: "Code Interpreter"
     icon: "Terminal"
     color: 5  # cyan
     description: "Code execution sandbox"
 
   # External Services
   llm-providers:
-    label: "LLM Providers"
+    defaultLabel: "LLM Providers"
     icon: "Cloud"
     color: 6  # purple
     description: "OpenAI, Anthropic, Cohere, Google, etc."
 
   external-data-sources:
-    label: "External Data Sources"
+    defaultLabel: "External Data Sources"
     icon: "CloudDownload"
     color: 3  # yellow
     description: "Slack, GitHub, Confluence, Gmail, etc."

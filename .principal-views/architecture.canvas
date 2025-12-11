@@ -1,5 +1,5 @@
 {
-  "vv": {
+  "pv": {
     "name": "Onyx Architecture",
     "version": "1.0.0",
     "nodeTypes": {
@@ -116,56 +116,47 @@
       "http-rest": {
         "label": "HTTP/REST",
         "style": "solid",
-        "color": "#3498db",
-        "description": "RESTful API communication"
+        "color": "#3498db"
       },
       "http-streaming": {
         "label": "HTTP/SSE",
         "style": "animated",
-        "color": "#9b59b6",
-        "description": "Server-Sent Events for streaming responses"
+        "color": "#9b59b6"
       },
       "database-connection": {
         "label": "SQL",
         "style": "solid",
-        "color": "#2ecc71",
-        "description": "Database queries via SQLAlchemy/asyncpg"
+        "color": "#2ecc71"
       },
       "redis-connection": {
         "label": "Redis",
         "style": "dashed",
-        "color": "#e74c3c",
-        "description": "Cache and queue operations"
+        "color": "#e74c3c"
       },
       "s3-api": {
         "label": "S3 API",
         "style": "solid",
-        "color": "#f1c40f",
-        "description": "S3-compatible storage API"
+        "color": "#f1c40f"
       },
       "search-query": {
         "label": "Search Query",
         "style": "solid",
-        "color": "#e67e22",
-        "description": "Hybrid search queries"
+        "color": "#e67e22"
       },
       "celery-task": {
         "label": "Async Task",
         "style": "dotted",
-        "color": "#e67e22",
-        "description": "Celery background task"
+        "color": "#e67e22"
       },
       "external-api": {
         "label": "External API",
         "style": "dashed",
-        "color": "#f1c40f",
-        "description": "Third-party API calls"
+        "color": "#f1c40f"
       },
       "llm-request": {
         "label": "LLM Request",
         "style": "solid",
-        "color": "#9b59b6",
-        "description": "LLM inference request"
+        "color": "#9b59b6"
       }
     }
   },
@@ -179,7 +170,7 @@
       "width": 200,
       "height": 100,
       "color": "#3498db",
-      "vv": {
+      "pv": {
         "nodeType": "nextjs-web",
         "shape": "rectangle"
       }
@@ -193,7 +184,7 @@
       "width": 200,
       "height": 100,
       "color": "#2ecc71",
-      "vv": {
+      "pv": {
         "nodeType": "nginx-proxy",
         "shape": "rectangle"
       }
@@ -207,7 +198,7 @@
       "width": 200,
       "height": 100,
       "color": "#2ecc71",
-      "vv": {
+      "pv": {
         "nodeType": "fastapi-server",
         "shape": "rectangle"
       }
@@ -221,7 +212,7 @@
       "width": 200,
       "height": 80,
       "color": "#e74c3c",
-      "vv": {
+      "pv": {
         "nodeType": "auth-system",
         "shape": "rectangle"
       }
@@ -235,7 +226,7 @@
       "width": 200,
       "height": 80,
       "color": "#9b59b6",
-      "vv": {
+      "pv": {
         "nodeType": "chat-engine",
         "shape": "rectangle"
       }
@@ -249,7 +240,7 @@
       "width": 200,
       "height": 80,
       "color": "#e67e22",
-      "vv": {
+      "pv": {
         "nodeType": "indexing-pipeline",
         "shape": "rectangle"
       }
@@ -263,7 +254,7 @@
       "width": 200,
       "height": 80,
       "color": "#f1c40f",
-      "vv": {
+      "pv": {
         "nodeType": "connector-framework",
         "shape": "rectangle"
       }
@@ -277,7 +268,7 @@
       "width": 180,
       "height": 80,
       "color": "#2ecc71",
-      "vv": {
+      "pv": {
         "nodeType": "postgresql",
         "shape": "cylinder"
       }
@@ -291,7 +282,7 @@
       "width": 180,
       "height": 80,
       "color": "#e67e22",
-      "vv": {
+      "pv": {
         "nodeType": "vespa-search",
         "shape": "cylinder"
       }
@@ -305,7 +296,7 @@
       "width": 180,
       "height": 80,
       "color": "#e74c3c",
-      "vv": {
+      "pv": {
         "nodeType": "redis-cache",
         "shape": "cylinder"
       }
@@ -319,7 +310,7 @@
       "width": 180,
       "height": 80,
       "color": "#f1c40f",
-      "vv": {
+      "pv": {
         "nodeType": "minio-storage",
         "shape": "cylinder"
       }
@@ -333,7 +324,7 @@
       "width": 200,
       "height": 80,
       "color": "#9b59b6",
-      "vv": {
+      "pv": {
         "nodeType": "inference-model-server",
         "shape": "rectangle"
       }
@@ -347,7 +338,7 @@
       "width": 200,
       "height": 80,
       "color": "#e67e22",
-      "vv": {
+      "pv": {
         "nodeType": "indexing-model-server",
         "shape": "rectangle"
       }
@@ -361,7 +352,7 @@
       "width": 200,
       "height": 80,
       "color": "#e67e22",
-      "vv": {
+      "pv": {
         "nodeType": "celery-worker",
         "shape": "rectangle"
       }
@@ -375,7 +366,7 @@
       "width": 200,
       "height": 100,
       "color": "#9b59b6",
-      "vv": {
+      "pv": {
         "nodeType": "llm-providers",
         "shape": "cloud"
       }
@@ -389,7 +380,7 @@
       "width": 180,
       "height": 100,
       "color": "#f1c40f",
-      "vv": {
+      "pv": {
         "nodeType": "external-data-sources",
         "shape": "cloud"
       }
@@ -403,7 +394,7 @@
       "width": 200,
       "height": 80,
       "color": "#9b59b6",
-      "vv": {
+      "pv": {
         "nodeType": "mcp-server",
         "shape": "rectangle"
       }
@@ -417,7 +408,7 @@
       "width": 200,
       "height": 80,
       "color": "#3498db",
-      "vv": {
+      "pv": {
         "nodeType": "code-interpreter",
         "shape": "rectangle"
       }
@@ -430,7 +421,7 @@
       "toNode": "nginx-proxy",
       "label": "HTTP/REST",
       "color": "#3498db",
-      "vv": {
+      "pv": {
         "edgeType": "http-rest"
       }
     },
@@ -440,7 +431,7 @@
       "toNode": "fastapi-server",
       "label": "HTTP/REST",
       "color": "#3498db",
-      "vv": {
+      "pv": {
         "edgeType": "http-rest"
       }
     },
@@ -450,7 +441,7 @@
       "toNode": "auth-system",
       "label": "HTTP/REST",
       "color": "#3498db",
-      "vv": {
+      "pv": {
         "edgeType": "http-rest"
       }
     },
@@ -460,7 +451,7 @@
       "toNode": "chat-engine",
       "label": "HTTP/REST",
       "color": "#3498db",
-      "vv": {
+      "pv": {
         "edgeType": "http-rest"
       }
     },
@@ -470,7 +461,7 @@
       "toNode": "indexing-pipeline",
       "label": "HTTP/REST",
       "color": "#3498db",
-      "vv": {
+      "pv": {
         "edgeType": "http-rest"
       }
     },
@@ -480,7 +471,7 @@
       "toNode": "connector-framework",
       "label": "HTTP/REST",
       "color": "#3498db",
-      "vv": {
+      "pv": {
         "edgeType": "http-rest"
       }
     },
@@ -490,7 +481,7 @@
       "toNode": "nextjs-web",
       "label": "HTTP/SSE",
       "color": "#9b59b6",
-      "vv": {
+      "pv": {
         "edgeType": "http-streaming"
       }
     },
@@ -500,7 +491,7 @@
       "toNode": "postgresql",
       "label": "SQL",
       "color": "#2ecc71",
-      "vv": {
+      "pv": {
         "edgeType": "database-connection"
       }
     },
@@ -510,7 +501,7 @@
       "toNode": "postgresql",
       "label": "SQL",
       "color": "#2ecc71",
-      "vv": {
+      "pv": {
         "edgeType": "database-connection"
       }
     },
@@ -520,7 +511,7 @@
       "toNode": "postgresql",
       "label": "SQL",
       "color": "#2ecc71",
-      "vv": {
+      "pv": {
         "edgeType": "database-connection"
       }
     },
@@ -530,7 +521,7 @@
       "toNode": "postgresql",
       "label": "SQL",
       "color": "#2ecc71",
-      "vv": {
+      "pv": {
         "edgeType": "database-connection"
       }
     },
@@ -540,7 +531,7 @@
       "toNode": "vespa-search",
       "label": "Search Query",
       "color": "#e67e22",
-      "vv": {
+      "pv": {
         "edgeType": "search-query"
       }
     },
@@ -550,7 +541,7 @@
       "toNode": "vespa-search",
       "label": "Search Query",
       "color": "#e67e22",
-      "vv": {
+      "pv": {
         "edgeType": "search-query"
       }
     },
@@ -560,7 +551,7 @@
       "toNode": "redis-cache",
       "label": "Redis",
       "color": "#e74c3c",
-      "vv": {
+      "pv": {
         "edgeType": "redis-connection"
       }
     },
@@ -570,7 +561,7 @@
       "toNode": "redis-cache",
       "label": "Redis",
       "color": "#e74c3c",
-      "vv": {
+      "pv": {
         "edgeType": "redis-connection"
       }
     },
@@ -580,7 +571,7 @@
       "toNode": "redis-cache",
       "label": "Redis",
       "color": "#e74c3c",
-      "vv": {
+      "pv": {
         "edgeType": "redis-connection"
       }
     },
@@ -590,7 +581,7 @@
       "toNode": "redis-cache",
       "label": "Redis",
       "color": "#e74c3c",
-      "vv": {
+      "pv": {
         "edgeType": "redis-connection"
       }
     },
@@ -600,7 +591,7 @@
       "toNode": "minio-storage",
       "label": "S3 API",
       "color": "#f1c40f",
-      "vv": {
+      "pv": {
         "edgeType": "s3-api"
       }
     },
@@ -610,7 +601,7 @@
       "toNode": "minio-storage",
       "label": "S3 API",
       "color": "#f1c40f",
-      "vv": {
+      "pv": {
         "edgeType": "s3-api"
       }
     },
@@ -620,7 +611,7 @@
       "toNode": "inference-model-server",
       "label": "LLM Request",
       "color": "#9b59b6",
-      "vv": {
+      "pv": {
         "edgeType": "llm-request"
       }
     },
@@ -630,7 +621,7 @@
       "toNode": "indexing-model-server",
       "label": "LLM Request",
       "color": "#9b59b6",
-      "vv": {
+      "pv": {
         "edgeType": "llm-request"
       }
     },
@@ -640,7 +631,7 @@
       "toNode": "llm-providers",
       "label": "LLM Request",
       "color": "#9b59b6",
-      "vv": {
+      "pv": {
         "edgeType": "llm-request"
       }
     },
@@ -650,7 +641,7 @@
       "toNode": "llm-providers",
       "label": "LLM Request",
       "color": "#9b59b6",
-      "vv": {
+      "pv": {
         "edgeType": "llm-request"
       }
     },
@@ -660,7 +651,7 @@
       "toNode": "celery-worker",
       "label": "Async Task",
       "color": "#e67e22",
-      "vv": {
+      "pv": {
         "edgeType": "celery-task"
       }
     },
@@ -670,7 +661,7 @@
       "toNode": "indexing-pipeline",
       "label": "Async Task",
       "color": "#e67e22",
-      "vv": {
+      "pv": {
         "edgeType": "celery-task"
       }
     },
@@ -680,7 +671,7 @@
       "toNode": "connector-framework",
       "label": "Async Task",
       "color": "#e67e22",
-      "vv": {
+      "pv": {
         "edgeType": "celery-task"
       }
     },
@@ -690,7 +681,7 @@
       "toNode": "external-data-sources",
       "label": "External API",
       "color": "#f1c40f",
-      "vv": {
+      "pv": {
         "edgeType": "external-api"
       }
     },
@@ -700,7 +691,7 @@
       "toNode": "mcp-server",
       "label": "HTTP/REST",
       "color": "#3498db",
-      "vv": {
+      "pv": {
         "edgeType": "http-rest"
       }
     },
@@ -710,7 +701,7 @@
       "toNode": "code-interpreter",
       "label": "HTTP/REST",
       "color": "#3498db",
-      "vv": {
+      "pv": {
         "edgeType": "http-rest"
       }
     },
@@ -720,7 +711,7 @@
       "toNode": "postgresql",
       "label": "SQL",
       "color": "#2ecc71",
-      "vv": {
+      "pv": {
         "edgeType": "database-connection"
       }
     },
@@ -730,7 +721,7 @@
       "toNode": "vespa-search",
       "label": "Search Query",
       "color": "#e67e22",
-      "vv": {
+      "pv": {
         "edgeType": "search-query"
       }
     }
